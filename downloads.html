@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Retroshare downloads</title>
+  <link href="css/app.css" rel="stylesheet">
+  <link href="css/foundation-icons.css" rel="stylesheet">
+  <link href="css/retroshare.css" rel="stylesheet">
+  <!-- For IE 9 and below. ICO should be 32x32 pixels in size -->
+  <!--[if IE]><link rel="shortcut icon" href="img/favicon_32p.png"><![endif]-->
+  <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. --> 
+  <link rel="apple-touch-icon" href="img/favicon_180p.png">
+  <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
+  <link rel="icon" href="img/favicon_192p.png">  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://github.com/RetroShare/documentation/wiki">Wiki</a>
+        </li>
+
+        <li>
+          <a href="https://retroshare.readthedocs.io/">Docu</a>
+        </li>
+        
+        <li>
+          <a href="downloads.html">Download</a>
+        </li>
+
+        <li>
+          <a href="https://retroshareteam.wordpress.com/">Blog</a>
+        </li>
+
+        <li>
+          <a href="support.html">Support</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="row">
+      <div class="small-4 medium-3 large-2 small-offset-l large-offset-l columns">
+        <a href="index.html"><img alt="Retroshare symbol" height="137" src="img/retroshare-symbol.png" width="137"></a>
+      </div>
+
+      <div class="small-6 medium-7 large-5 columns text-center">
+        <div class="logo">
+          <a href="index.html">
+          <h1><span class="retro">Retro</span>Share</h1></a>
+
+          <p>secure communication for everyone</p>
+        </div>
+      </div>
+
+      <div class="medium-1 columns"></div>
+    </div>
+  </header>
+
+	<!-- Windows -->
+	<div class="row package">
+		<div class="tiny-2 columns">
+			<img alt="Windows logo" src="img/windows-logo.svg">
+		</div>
+
+		<div class="tiny-10 columns">
+			<h2 id="windows"><a href="#windows">Windows</a></h2>
+			<ul>
+			
+				<li><a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/RetroShare-0.6.5-20190204-1-gfb005f041-Qt-5.12.0-setup.exe">Retroshare-0.6.5-Qt5 (Setup)</a> Installer</li>
+				<li><a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/RetroShare-0.6.5-Windows-Portable-20190204-1-gfb005f041-Qt-5.12.0.7z">Retroshare (Portable) Qt5, </a>Portable</li>
+				<li><a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/RetroShare-0.6.5-Windows-Portable-20190204-1-gfb005f041-Qt-5.12.0-tor.7z">Retroshare (Portable, Tor executable included) Qt5, </a>Portable</li>
+			</ul>
+			<p>RetroShare for Windows is also availabe on <a href="https://chocolatey.org/packages/retroshare">chocolatey</a> with automatic updates.</p>
+			<p>Checksums:<a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/chksums.txt.asc">checksum.txt</a></p>
+		</div>
+	</div>
+	<!-- /Windows -->
+
+	<!-- Mac OSX -->
+	<div class="row package">
+		<div class="tiny-2 columns"><img alt="Apple logo" src="img/apple-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="mac"><a href="#mac">Mac OSX</a></h2>
+			<p>
+			RetroShare is currently available for OSX. Note: the packaging and
+			compilation is not ours. It's been made automatically using
+			<a href="https://travis-ci.org">Travis-CI</a>.
+
+			On OSX-14.2, one has to install libnettle using Brew: <pre>&nbsp;&nbsp;&nbsp;$ brew install libnettle</pre>
+			In order to use Retroshare over Tor, just do:
+			<pre>&nbsp;&nbsp;&nbsp;$ brew install tor</pre>
+			</p>
+			<p>MacOSX Package: <a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/Retroshare-0.6.5.OSX-10.13+.dmg">RetroShare_v0.6.5.dmg</a></p>
+			<p>Checksums: <a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/checksums.txt.asc">checksum.txt</a></p>
+		</div>
+	</div>
+	<!-- /Mac OSX -->
+
+	<!-- GNU/Linux -->
+	<div class="row package">
+		<div class="tiny-2 columns"><img alt="GNU/Linux logo" src="img/Gnulinux.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="gnulinux"><a href="#gnulinux">GNU/Linux</a></h2>
+			<p>
+			On most GNU/Linux distributions Retroshare is available along with
+			standard packages, so you should check before on your preferred
+			package manager if current RetroShare version is installable from
+			there.
+			If RetroShare is not available on your package manager or the
+			available version is outdated you can find detailed instructions for
+			each distribution we have tested down in this page.
+			</p>
+		</div>
+	</div>
+	<!-- /GNU/Linux -->
+
+	<!-- ALT Linux -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="ALT Linux logo" src="img/altlinux-logo.png"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="altlinux"><a href="#altlinux">ALT Linux</a></h2>
+
+			<p>
+			Retroshare is independently maintained on
+			<a href="https://packages.altlinux.org/en/srpms/retroshare" target="_blank">ALT Linux</a>.
+			</p>
+		</div>
+	</div>
+	<!-- ALT Linux -->
+
+	<!-- Android -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Android logo" id="android" src="img/android-logo.svg"></div>
+		<div class="tiny-10 columns"><h2 id="android"><a href="#android">Android</a></h2>
+			<p>
+			We maintain an experimental
+			<a href="https://f-droid.org/en/packages/org.retroshare.android.qml_app/">
+			<!-- Build pending https://f-droid.org/packages/org.retroshare.android.qml_app/ -->
+			RetroShare for Android package on F-Droid</a>
+			which only provides chat.<br/><br/>
+			Android experts may also be interested in trying development
+			snapshots from the
+			<a href="retroshare://channel?name=RetroShare%20Android%20builds%20by%20G10h4ck&id=e78125439fff723b3b15bb77b8f25dba">RetroShare Android builds by G10h4ck</a>
+			channel to give us feedback and hopefully submit patches.
+			We strongly discourage the usage of development snapshots on a non
+			development device.
+			</p>
+		</div>
+	</div>
+	<!-- /Android -->
+
+	<!-- AppImage -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="AppImage logo" id="appimage" src="img/appimage.svg" /></div>
+		<div class="tiny-10 columns">
+			<h2 id="appimage"><a href="#appimage">AppImage</a></h2>
+			<p>
+			If none of the distribution specific options fits your setup you
+			should try AppImage. Take care of selecting the one which match your
+			CPU architecture (use x86_64 if you are unsure).
+			We expect those AppImages to work on most GNU/Linux distributions.
+			</p>
+			<ul>
+				<li><a href="https://download.opensuse.org/repositories/network:/retroshare/AppImage/retroshare-gui-latest-x86_64.AppImage">Retroshare x86_64 AppImage</a></li>
+				<li><a href="https://download.opensuse.org/repositories/network:/retroshare/AppImage/">More RetroShare x86_64 AppImage options</a></li>
+				<li><a href="https://download.opensuse.org/repositories/network:/retroshare/AppImage.arm/">More RetroShare ARM AppImage options</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /AppImage -->
+
+	<!-- ArchLinux -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Arch Linux logo" src="img/archlinux-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="archlinux"><a href="#archlinux">Arch Linux</a></h2>
+
+			<p>
+			We distribute current Retroshare for Arch Linux through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+			<blockquote>
+			#1 <code>wget https://download.opensuse.org/repositories/network:/retroshare/Arch_Community_standard/x86_64/network_retroshare_Arch_Community_standard.key</code><br/>
+			#2 <code>pacman-key --add network_retroshare_Arch_Community_standard.key</code><br/>
+			#3 <code>echo '[network_retroshare_Arch_Community_standard]' >> /etc/pacman.conf</code><br/>
+			#4 <code>echo 'Server = https://download.opensuse.org/repositories/network:/retroshare/Arch_Community_standard/x86_64/' >> /etc/pacman.conf</code><br/>
+			#5 <code>pacman-key --finger "network OBS Project &lt;network@build.opensuse.org&gt;"</code><br/>
+			#6 <code>pacman-key --lsign-key "network OBS Project &lt;network@build.opensuse.org&gt;"</code><br/>
+			#5 <code>pacman -Sy</code><br/>
+			#6 <code>pacman -S retroshare</code><br/>
+			</blockquote>
+			<p>Alternatively you can use the package independently maintained on <a href="https://aur.archlinux.org/packages/retroshare/">AUR</a>.</p>
+		</div>
+	</div>
+	<!-- /ArchLinux -->
+
+	<!-- CentOS -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="CentOS logo" src="img/centos-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="centos"><a href="#centos">CentOS</a></h2>
+
+			<p>
+			We distribute current Retroshare for CentOS through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+			<blockquote>
+			#1 <code>rpm --import http://download.opensuse.org/repositories/network:/retroshare/CentOS_7/repodata/repomd.xml.key</code><br/>
+			#2 <code>wget -O /etc/yum.repos.d/retroshare https://download.opensuse.org/repositories/network:/retroshare/CentOS_7/network:retroshare.repo</code><br/>
+			#3 <code>yum update</code><br/>
+			#4 <code>yum install retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- /CentOS -->
+
+	<!-- Debian -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Debian logo" src="img/debian-logo.svg"></div>
+		<div class="tiny-10 columns">
+			<h2 id="debian"><a href="#debian">Debian</a></h2>
+
+			<p>
+			We distribute current Retroshare for Debian through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+
+			<p>
+			Determine your Debian version,
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			builds RetroShare packages for Debian 8.0, 9.0, 10, Testing and Ustable:
+			</p>
+			<blockquote>
+			#1 <code>export DEBIAN_VERSION="9.0"</code><br/>
+			</blockquote>
+
+			<p>
+			Add RetroShare
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			as trusted packages repository:
+			</p>
+			<blockquote>
+			#1 <code>wget -qO - http://download.opensuse.org/repositories/network:retroshare/Debian_${DEBIAN_VERSION}/Release.key | sudo apt-key add -</code><br/>
+			#2 <code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/network:/retroshare/Debian_${DEBIAN_VERSION}/ /' > /etc/apt/sources.list.d/retroshare.list"</code><br/>
+			</blockquote>
+
+			<p>And then install RetroShare with the following commands:</p>
+			<blockquote>
+			#1 <code>sudo apt-get update</code><br/>
+			#2 <code>sudo apt-get install retroshare</code><br/>
+			</blockquote>
+
+			<p>Or look fore more RetroShare packages with the following commands:</p>
+			<blockquote>
+			#1 <code>sudo apt-cache search retroshare</code><br/>
+			</blockquote>
+
+			<p>
+			If you can't finde a proper package for your Debian
+			version/architecture or you encounter problems installing or using
+			the packages, we suggests you to try the RetroShare AppImage instead.
+			</p>
+		</div>
+	</div>
+	<!-- /Debian -->
+
+
+	<!-- Fedora -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Fedora logo" id="fedora" src="img/fedora-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="fedora"><a href="#fedora">Fedora</a></h2>
+			<p>
+			We distribute current Retroshare for Fedora through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+			<blockquote>
+			#1 <code>sudo dnf config-manager --add-repo=https://download.opensuse.org/repositories/network:/retroshare/Fedora_$(rpm -E %fedora)/network:retroshare.repo</code><br/>
+			</blockquote>
+
+			<p>And then install RetroShare with the following commands:</p>
+			<blockquote>
+			#2 <code>sudo dnf install retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- Fedora -->
+
+	<!-- Gentoo -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Gentoo logo" id="gentoo" src="img/gentoo-logo.svg"></div>
+		<div class="tiny-10 columns">
+			<h2 id="gentoo"><a href="#gentoo">Gentoo</a></h2>
+			<p>
+			RetroShare is officially distributed along with
+			<a href="https://packages.gentoo.org/package/net-p2p/retroshare" target="_blank">Gentoo standard packages</a>.
+			You can instal it with the following command:
+			</p>
+			<blockquote>
+			#0 <code>emerge -avq net-p2p/retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- /Gentoo -->
+
+	<!-- Mageia -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Mageia logo" src="img/mageia-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="mageia"><a href="#mageia">Mageia</a></h2>
+			<p>
+			We distribute current Retroshare for Mageia through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To install you can use the following commands:
+			</p>
+			<blockquote>
+			#1 <code>urpmi.addmedia retroshare https://download.opensuse.org/repositories/network:/retroshare/Mageia_6/</code><br/>
+			#2 <code>urpmi.update -a</code><br/>
+			#3 <code>urpmi retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- /Mageia -->
+
+	<!-- openSUSE -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="openSUSE logo" src="img/opensuse-logo.svg" /></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="opensuse"><a href="#opensuse">openSUSE</a></h2>
+			<p>
+			We distribute current Retroshare for openSUSE through
+			<a href="http://openbuildservice.org/">Open Build Service</a>.
+			To add the openSUSE Retroshare repository first look for the correct
+			version on our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS repository</a>,
+			once you identified it you can add it using zypper for
+			expample for openSUSE Tumbleweed you could use the following command:
+			</p>
+
+			<blockquote>
+			#1 <code>zypper addrepo -f https://download.opensuse.org/repositories/network:/retroshare/openSUSE_Tumbleweed/ retroshare</code><br/>
+			</blockquote>
+
+			<p>
+			Once you add the correct repository you can install  Retroshare and
+			receive updates with the following commands:
+			</p>
+
+			<blockquote>
+			#1 <code>zypper refresh security</code><br/>
+			#2 <code>zypper install retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- openSUSE -->
+
+	<!-- Raspbian -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Raspbian logo" src="img/raspbian-logo.png"></div>
+		<div class="tiny-10 columns">
+			<h2 id="raspbian"><a href="#raspbian">Raspbian</a></h2>
+
+			<p>
+			We distribute current Retroshare for Raspbian 9 through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+			<blockquote>
+			#1 <code>wget -qO - http://download.opensuse.org/repositories/network:retroshare/Raspbian_9.0/Release.key | sudo apt-key add -</code><br/>
+			#2 <code>sudo sh -c "echo 'deb http://download.opensuse.org/repositories/network:/retroshare/Raspbian_9.0/ /' > /etc/apt/sources.list.d/retroshare.list"</code><br/>
+			</blockquote>
+
+			<p>And then install RetroShare with the following commands:</p>
+			<blockquote>
+			#1 <code>sudo apt-get update</code><br/>
+			#2 <code>sudo apt-get install retroshare</code><br/>
+			</blockquote>
+
+			<p>
+			If you use another Raspbian version/architecture or you encounter
+			problems installing or using the package, we suggests you to try the
+			RetroShare AppImage instead.
+			</p>
+		</div>
+	</div>
+	<!-- /Raspbian -->
+
+	<!-- ROSA Linux -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="ROSA Linux logo" src="img/rosalinux-logo.png"/></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="rosalinux"><a href="#rosalinux">ROSA Linux</a></h2>
+
+			<p>
+			Retroshare is independently maintained on
+			<a href="https://abf.rosalinux.ru/import/retroshare">ROSA Linux</a>.
+			</p>
+		</div>
+	</div>
+	<!-- ROSA Linux -->
+
+	<!-- Slackware -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Slackware logo" src="img/slackware-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="slackware"><a href="#slackware">Slackware</a></h2>
+
+			<p>
+			RetroShare is independently packaged for
+			<a href="https://slackbuilds.org/result/?search=retroshare">Slackware</a>.
+			</p>
+		</div>
+	</div>
+	<!-- /Slackware -->
+
+	<!-- Ubuntu -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Ubuntu logo" id="ubuntu" src="img/ubuntu-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="ubuntu"><a href="#ubuntu">Ubuntu</a></h2>
+			<p>
+			We distribute current RetroShare for Ubuntu through our
+			<a href="https://build.opensuse.org/project/show/network:retroshare">OBS</a>
+			repository. To add it you can use the following commands:
+			</p>
+
+			<blockquote>
+			#1 <code>source /etc/os-release</code><br/>
+			#2 <code>wget -qO - https://download.opensuse.org/repositories/network:/retroshare/xUbuntu_${VERSION_ID}/Release.key | sudo apt-key add -</code><br/>
+			#3 <code>sudo sh -c "echo 'deb https://download.opensuse.org/repositories/network:/retroshare/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/retroshare_OBS.list"</code><br/>
+			</blockquote>
+
+			<p>Thein install RetroShare with:</p>
+			<blockquote>
+			#1 <code>sudo apt-get update</code><br/>
+			#2 <code>sudo apt-get install retroshare</code><br/>
+			</blockquote>
+		</div>
+	</div>
+	<!-- /Ubuntu -->
+
+	<!-- Void Linux -->
+	<div class="row package small-6">
+		<div class="tiny-2 columns"><img alt="Void Linux logo" src="img/Void_Linux_logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="voidlinux"><a href="#voidlinux">Void Linux</a></h2>
+
+			<p>
+			RetroShare is independently packaged for
+			<a href="https://voidlinux.org/">Void Linux</a>.
+			</p>
+		</div>
+	</div>
+	<!-- /Void Linux -->
+
+	<!-- FreeBSD -->
+	<div class="row package">
+		<div class="tiny-2 columns"><img alt="FreeBSD logo" src="img/freebsd-logo.svg"></div>
+
+		<div class="tiny-10 columns">
+			<h2 id="freebsd"><a href="#freebsd">FreeBSD</a></h2>
+
+			<p>
+			Retroshare is independently maintained on FreeBSD
+			<a href="http://www.freshports.org/net-p2p/retroshare" target="_blank">freshports</a>
+			system.
+			</p>
+		</div>
+	</div>
+	<!-- /FreeBSD -->
+
+	<!-- Source Tarballs -->
+	<div class="row package">
+		<div class="tiny-2 columns"><img alt="Tar.gz logo" src="img/tgz-logo.svg"></div>
+		<div class="tiny-10 columns">
+			<h2 id="source"><a href="#source">Source Tarballs</a></h2>
+			<p>
+			As always we honour our Free as in Freedom software for a Free
+			Society stance, so you can download the source code from the
+			following links:<br/>
+			<a href="https://github.com/RetroShare/RetroShare/archive/v0.6.5.tar.gz">RetroShare-0.6.5.tar.gz</a><br/>
+			<a href="https://github.com/RetroShare/RetroShare/archive/v0.6.5.zip">RetroShare-0.6.5.zip</a><br/>
+			<a href="https://github.com/RetroShare/RetroShare/releases/download/v0.6.5/chksums.txt.asc">checksums</a>
+			</p>
+		</div>
+	</div>
+	<!-- /Source Tarballs -->
+
+  <footer class="footer">
+    <div class="row">
+      <div class="medium-6 large-4 large-offset-2 columns">
+        <i class="fi-info"></i>
+
+        <ul class="footer-links">
+          <li>
+            <a href="https://retroshare.github.io/">Project Site</a>
+          </li>
+
+          <li>
+            <a href="https://retroshare.readthedocs.io/">Documentation</a>
+          </li>
+
+          <li>
+            <a href="http://retroshare.sourceforge.net/wiki/index.php/Frequently_Asked_Questions">FAQ</a>
+          </li>
+
+          <li>
+            <a href="screenshots.html">Screenshots</a>
+          </li>
+
+          <li>
+            <a href="https://github.com/RetroShare/documentation/wiki">Wiki</a>
+          </li>
+          
+          <li>
+            <a href="https://github.com/RetroShare">GitHub project page</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="medium-6 large-4 columns">
+        <i class="fi-megaphone"></i>
+
+        <ul class="footer-links">
+          <li>
+            <a href="https://retroshareteam.wordpress.com/">Retroshare Team Blog</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/retroshare">Retroshare Dev Twitter</a>
+          </li>
+
+          <li>
+            <a href="http://retroshare.sourceforge.net/forum">Web forums</a>
+          </li>
+
+          <li>
+            <a href="http://sourceforge.net/p/retroshare/mailman/">Developer mailing list</a>
+          </li>
+
+           <li>
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fretroshare.cc&via=retroshare"><img src="img/twitter_tweet.png" width="76" height="28"></a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/intent/follow?screen_name=retroshare"><img src="img/twitter_follow.png" width="155" height="28"></a>
+          </li>
+	</ul>
+
+
+      </div>
+
+      <div class="tiny-1"></div>
+    </div>
+  </footer> 
+</body>
+</html>
